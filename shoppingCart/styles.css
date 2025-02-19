@@ -3,6 +3,18 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    background-color: #364156; /* #011638, #214E34, #cdcdcd, #dff8eb - additional color palette choices */
-    color: #dff8eb;
+    background-color: #dff8eb; /* #011638, #214E34, #cdcdcd, #dff8eb - additional color palette choices */
+    color: #214e34;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.container{
+    width:620px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 2px solid #214e34;
+    padding: 20px;
 }

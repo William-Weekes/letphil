@@ -7,10 +7,48 @@
     <title>Shopping Cart Project</title>
 </head>
 <body>
+    <h1>The Shopping Cart Expo</h1>
+
     <div class="container">
-        <h1>The Shopping Cart Expo</h1>
+       <div class="items-ui">
+        <h2 style="margin-bottom: 10px">Shopping Cart</h2>
+        <div class="input-container">
+            <input type="text"  id="product-name" placeholder="Enter product name" />
+            <input type="number"  id="product-price" placeholder="Enter price" />
+            <input type="text"  id="product-image" placeholder="Enter image URL" />
+            <label>Count #</label>
+            <select id="numOfUnits">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button id="addButton">Add to Cart</button>
+        </div>
+        <div id="listContainer"></div>
+       </div>
     </div>
 
     <script src="app.js"></script>
 </body>
 </html>
+
+<!---
+[X] - make user input where they can input product name
+[X] - make user input where they can input price
+[X] - make list where items will be listed
+[X] - make removal item feature
+[X] - make edit item feature  
+
+-->
+
+<!---
+My Tasks 
+1. Add quantity support (e.g., `{name: "Apple", price: 2, Quantity: 3}`)
+[X]2. Prevent duplicate products from being added.
+[X]3. Add a "Clear Cart" button to reset everything.
+[X]4. Add total cost calculation.
+
+This example applies to ***real-world shopping cart logic** making it more engaging.
+-->
